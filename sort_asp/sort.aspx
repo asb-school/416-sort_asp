@@ -8,12 +8,8 @@
 </head>
 <body>
     <p>Hello</p>
-    <form id="main_form" runat="server">
-        <div>
-            <p>Name: <asp:textbox id="name" runat="server"></asp:textbox></p>
-            <p>Age: <asp:textbox id="age" runat="server"></asp:textbox></p>
-            <p><asp:button ID="submit" text="Submit" runat="server" /></p>
-        </div>
+   <form runat="server">
+       </form>
         <%
        
             //num_views++;
@@ -35,7 +31,7 @@
             {
                 Session["state"] = "start";
                 %>
-                <form id="get_num_items" action="sort.aspx?new_state=input_items" runat="server">
+                <form id="get_num_items" action="sort.aspx?new_state=input_items">
                     <label>How many items do you want to sort?</label>
                     <asp:TextBox ID="num_items" runat="server"></asp:TextBox>
 
@@ -51,7 +47,7 @@
             {
                 %>
         <p>The number of items is: <%: num_items.Text %></p>
-                <form id="input_items" action="sort.aspx?new_state=list_items" runat="server">
+                <form id="input_items" action="sort.aspx?new_state=list_items" >
                     <% 
                        int givenNumItems = Convert.ToInt32(num_items.Text);
                        for (int i = 1; i <= givenNumItems; i++)
@@ -60,7 +56,7 @@
                           %>
 
                         <label>Item <%:i %></label>
-                       
+                       <asp:TextBox ID="<%:itemString %>" runat="server"></asp:TextBox>
 
                       <% }  %>
 

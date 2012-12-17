@@ -13,51 +13,6 @@ namespace sort_asp {
     public partial class sort {
         
         /// <summary>
-        /// main_form control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm main_form;
-        
-        /// <summary>
-        /// name control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox name;
-        
-        /// <summary>
-        /// age control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox age;
-        
-        /// <summary>
-        /// submit control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button submit;
-        
-        /// <summary>
-        /// get_num_items control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm get_num_items;
-        
-        /// <summary>
         /// num_items control.
         /// </summary>
         /// <remarks>
@@ -76,13 +31,13 @@ namespace sort_asp {
         protected global::System.Web.UI.WebControls.Button submit3;
         
         /// <summary>
-        /// input_items control.
+        /// <%:itemString %> control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm input_items;
+        protected global::System.Web.UI.WebControls.TextBox <%:itemString %>;
         
         /// <summary>
         /// submit2 control.
